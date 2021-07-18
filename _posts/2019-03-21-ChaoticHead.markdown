@@ -18,7 +18,7 @@ While investigating, I found a newer build of that engine, used in another game 
 Thanks to the help I received from DVN, this project not only included technical fixes, but also grammatical and translation improvements as well.
 
 
-List of Chaotic;Head improvements:
+__List of Chaotic;Head improvements:__ 
 
 - No need to use locale emulator;
 - Fixed broken video playback;
@@ -40,7 +40,34 @@ the people at TLWiki and everyone else who contribuited to improve and make Chao
 
 *****************************
 
-Credits:
+# Troubleshooting
+* __*"The game will not open and an error pops up"*__  
+	* The game requires administrator permission to run properly or else in some cases an error will pop up.   
+	If the issue persists, you might be missing DirectX 9.0c which is needed to run the game, you can download that [here](https://www.microsoft.com/en-hk/download/details.aspx?id=8109). 
+	
+<br>
+
+* __*"The game froze during Prologue"*__  
+	* If the rain in the prologue is not being animated, close the game.  
+	Install [K-Lite Codec Pack](https://codecguide.com/download_kl.htm).  
+	Try running the game and see if the problem is resolved. 
+
+<br>
+
+	
+* __*"Full Screen is broken"*__  
+	* Press F to exit full screen  
+	Go to config  
+	select the third tab  
+	select "Stretch to fit"  
+	go fullscreen  
+	select "Preserve as is"  
+
+<br>
+
+*****************************
+
+# Credits
 
 Chaotic;Head author: nipkow
 
@@ -62,9 +89,11 @@ ghost for RC2 (adds some missing items)
 http://www.tsukuru.info/tlwiki/index.php?title=Chaos;Head
 DVN for cleaning up what RC1 and RC2 left behind
 
+<br>
 
+*****************************
 
-### Changelog:
+# Changelog
 
 1.23:
 
@@ -73,7 +102,7 @@ DVN for cleaning up what RC1 and RC2 left behind
 - Implemented a few fixes from the DMM version.
 - Minor typos.
 
-________________________
+====
 
 1.22:
 
@@ -96,7 +125,7 @@ ________________________
 - Added/removed line-ends that were inconsistent with the original script and didn't break the character limit.
 - Grammar/spelling mistakes. Again, a ton.
 
-________________________
+====
 
 1.21:
 
@@ -128,7 +157,7 @@ ________________________
 - Fixed The end-game cutscene playing audio in the wrong order, now that it's reliant on the in-game audio.
 - Translation fixes. Lots of them.
 
-________________________
+====
 
 Compared to Di-Patch (from Di-Patch 2.5 to Chaotic;Head 1.20):
 
