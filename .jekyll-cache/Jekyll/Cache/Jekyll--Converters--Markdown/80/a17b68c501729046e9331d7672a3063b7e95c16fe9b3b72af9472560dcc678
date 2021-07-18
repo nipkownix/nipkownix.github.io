@@ -1,0 +1,125 @@
+I"T<p>When the Steam version of Steins;Gate was produced, the developers decided to use a very well known and often reliable video codec - Bink.</p>
+
+<p>Bink can be an amazing <em>compressor</em>, but whoever is encoding videos has to be very careful, otherwise Bink will destroy the video in order to achieve a small file size.</p>
+
+<p>Suffice to say, Steins;Gate’s bink videos are really, really, horribly compressed.</p>
+
+<p>As someone who played the Steam version before any other port, I was shocked when I booted a copy of Steins;Gate on ps3 and watched it’s versions of the videos.</p>
+
+<p>Here are some comparisons:</p>
+
+<p>(compare the images at full resolution to see the finer details)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Steam</th>
+      <th>PS3 (upscaled)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/SGHQFMV/comp1_steam.jpg" alt="Steam" /></td>
+      <td><img src="/assets/img/SGHQFMV/comp1_ps3.jpg" alt="PS3" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Steam:</th>
+      <th>PS3 (upscaled):</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/SGHQFMV/comp2_steam.jpg" alt="Steam" /></td>
+      <td><img src="/assets/img/SGHQFMV/comp2_ps3.jpg" alt="PS3" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="the-problem">The problem</h3>
+
+<p>Bink.</p>
+
+<p>Only Bink 1 is free to use. One can only encode Bink 2 videos if they buy a commercial license, so Bink 1 is my only option.</p>
+
+<p>As expected, Bink 1 is terrible, outdated and bloated. Bink 2 is the “new” and improved version of the encoder.</p>
+
+<p>Steins;Gate’s videos were encoded using Bink 2, but without proper settings, the results were terrible. The videos look overly compressed and blocky.</p>
+
+<h3 id="the-solution-">The solution (?)</h3>
+
+<p>My project aims to “port” and improve the videos by using VapourSynth as a way to filter them, and Bink 1 as the file format.</p>
+
+<p>However, to get Bink 1 videos to “look good”, the encoding basically has to be extremely “bloated”. The file size can be seen as “huge” to some people.</p>
+
+<p>With all of these limitations in mind, this project’s clearly not perfect.</p>
+
+<p>However, I tried my best to retain as much quality as possible while keeping the videos at a “reasonable” file size.</p>
+
+<p>Also, I tried to correct the only problem with the ps3 videos: Aliasing present on sprites when a “transition” video is playing.<br />
+Comparison:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>PS3 (upscaled):</th>
+      <th>My project:</th>
+      <th>Steam:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/SGHQFMV/comp3_ps3.jpg" alt="PS3" /></td>
+      <td><img src="/assets/img/SGHQFMV/comp3_project.jpg" alt="My project" /></td>
+      <td><img src="/assets/img/SGHQFMV/comp3_steam.jpg" alt="Steam" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Sound wise, Bink 1 is also pretty terrible. However, there is workaround for that.</p>
+
+<h3 id="finally">Finally,</h3>
+
+<p>This project was designed to work with <a href="https://steamcommunity.com/app/412830/discussions/0/215439774868934160/">Committee of Zero’s improvement patch</a>. Mainly the HQ audio portion. I have <a href="https://github.com/nipkownix/sghd-patch">forked its source code</a> and used its “file redirection” feature to replace the Bink 1 audio with the ps3 sound files extracted from the same videos I used as a source for this project.</p>
+
+<p>If you don’t use the aforementioned improvement patch, the videos will display no subtitles and you will hear noticeable lossy audio. Do as you please, but I do recommend using the improvement patch.</p>
+
+<h3 id="what-about-the-japanese-videos">What about the Japanese videos?</h3>
+
+<p>Committee of Zero’s improvement patch has optional instructions guiding you to replace the hard-subbed English videos for the Japanese videos. The Japanese videos do look better than the English ones, but they are plagued by the same problems. In fact, the images I used for comparison earlier are from the Japanese videos. Their English counterparts look even worse.</p>
+
+<p>You can skip downloading the Japanese videos if you are going to use the ones from this project. Please remember that the videos from this project have no hardsubs and are a mix from both English and Japanese ps3 videos. Subtitles have to be <a href="/assets/img/SGHQFMV/Subs.png">enabled</a> on the improvement patch.</p>
+
+<h3 id="downloads">Downloads</h3>
+
+<p>The downloads are split into three optional parts:</p>
+
+<ul>
+  <li>
+    <p><a href="https://drive.google.com/file/d/1x5May_-WCfM7w0eV_7jmTcV8YrEDaiR_/view?usp=sharing">1080p videos</a> (2.9G)</p>
+  </li>
+  <li>
+    <p><a href="https://drive.google.com/file/d/1JkXdc6YArIXLNEVjfPmwT2Hh5FAYBVPF/view?usp=sharing">720p videos</a> (1.5G)</p>
+  </li>
+  <li>
+    <p><a href="https://drive.google.com/file/d/1hwF2bfh9_c5qwWa0YHvZsP02iX0HQTVr/view?usp=sharing">HQ Audio</a></p>
+  </li>
+</ul>
+
+<p>You probably won’t need both video packs. 
+1080p videos are used when the <a href="/assets/img/SGHQFMV/Launcher.png">movie quality is set to high</a>, and 720p videos are used when the quality is set to low.</p>
+
+<p>Copy the new files to:</p>
+
+<blockquote>
+  <p>Steam\steamapps\common\STEINS;GATE\USRDIR\movie\</p>
+</blockquote>
+
+<p>The HQ Audio pack should be installed “on top” of the <a href="https://steamcommunity.com/app/412830/discussions/0/215439774868934160/">improvement patch</a>, replacing existing files.</p>
+
+<p>I have a Steam thread regarding the HQ FMV project <a href="https://steamcommunity.com/app/412830/discussions/0/2798319091587347187/">here</a> if any assistance is needed.</p>
+:ET

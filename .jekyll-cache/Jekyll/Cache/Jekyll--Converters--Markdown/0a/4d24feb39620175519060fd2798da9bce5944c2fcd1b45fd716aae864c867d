@@ -1,0 +1,66 @@
+I"�<p>A project designed to fix and tweak the “UHD” port of Resident Evil 4 on <a href="https://store.steampowered.com/app/254700/Resident_Evil_4/">Steam</a>.</p>
+
+<h3 id="current-features">Current features</h3>
+
+<ul>
+  <li>
+    <p><strong>Increase FOV</strong> - Increases the default FOV. Useful to prevent motion sickness in some people.</p>
+  </li>
+  <li>
+    <p><strong>Fix sniper zoom</strong> - When playing with keyboard and mouse, this fixes an annoying bug which would cause your camera to be off-center after you zoomed in with a sniper rifle.</p>
+  </li>
+  <li>
+    <p><strong>Restore pickup screen transparency</strong> - Restores a transparency effect that was present on the GameCube and Wii versions of RE4, but has been missing since the game was ported to Xbox 360.</p>
+  </li>
+</ul>
+
+<p>Comparison:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Before</th>
+      <th>After</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/RE4T/comp1_noalpha.jpg" alt="Before" /></td>
+      <td><img src="/assets/img/RE4T/comp1_alpha.jpg" alt="After" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><strong>Disable post processing</strong> - Disables post processing effects such as motion blur and the “color filter” option. Most notably, it disables the game’s forced FXAA, making the image much sharper and clearer. 
+The anti-aliasing option found in the settings menu is unaffected.</p>
+  </li>
+  <li>
+    <p><strong>Disable film grain</strong> - Disables the film grain overlay that is present in most sections of the game.</p>
+  </li>
+  <li><strong>Flip items in your inventory using the keyboard</strong> - Creates key bindings to flip (not just rotate) items when playing with a keyboard and mouse, just like you can do if you play with a controller.
+    <ul>
+      <li>Default bindings:
+        <ul>
+          <li>Flip up: Home</li>
+          <li>Flip down: End</li>
+          <li>Flip left: Insert</li>
+          <li>Flip right: Page Up</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Rebind keyboard QTE keys</strong> - The vanilla game doesn’t allow the user to change the main QTE keys, being “X” and “C”. Changing them via an .ini file is possible, but the on screen prompts don’t change to match the new keys, leading to confusion. This mod changes the default QTE keys to be “A” and “D”, both customizable and with proper on screen prompt support.</li>
+</ul>
+
+<h3 id="installation">Installation</h3>
+
+<p>Download the lastest release from here: <a href="https://github.com/nipkownix/re4_tweaks/releases">https://github.com/nipkownix/re4_tweaks/releases</a></p>
+
+<p>Extract winmm.dll and winmm.ini to “Steam\steamapps\common\Resident Evil 4\Bin32”.</p>
+
+<p>Options can be configured inside winmm.ini.</p>
+
+<p>I have a Steam thread regarding the project <a href="https://steamcommunity.com/app/254700/discussions/0/3108018050534635927/">here</a> if any assistance is needed.</p>
+:ET
