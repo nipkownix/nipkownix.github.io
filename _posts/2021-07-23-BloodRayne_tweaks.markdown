@@ -41,9 +41,10 @@ Comparison:
 |--|--|
 | ![Before](/assets/img/BRT/HRUI/comp1_orig.jpg) | ![After](/assets/img/BRT/HRUI/comp1_new.jpg) |
 | ![Before](/assets/img/BRT/HRUI/comp2_orig.jpg) | ![After](/assets/img/BRT/HRUI/comp2_new.jpg) |
-| ![Before](/assets/img/BRT/HRUI/comp3_orig.jpg) | ![After](/assets/img/BRT/HRUI/comp3_new.jpg) |
-| ![Before](/assets/img/BRT/HRUI/comp4_orig.jpg) | ![After](/assets/img/BRT/HRUI/comp4_new.jpg) |
+| ![Before](/assets/img/BRT/HRUI/comp3_orig.png) | ![After](/assets/img/BRT/HRUI/comp3_new.png) |
+| ![Before](/assets/img/BRT/HRUI/comp4_orig.png) | ![After](/assets/img/BRT/HRUI/comp4_new.png) |
 | ![Before](/assets/img/BRT/HRUI/comp5_orig.jpg) | ![After](/assets/img/BRT/HRUI/comp5_new.jpg) |
 | ![Before](/assets/img/BRT/HRUI/comp6_orig.jpg) | ![After](/assets/img/BRT/HRUI/comp6_new.jpg) |
+| ![Before](/assets/img/BRT/HRUI/comp7_orig.jpg) | ![After](/assets/img/BRT/HRUI/comp7_new.jpg) |
 
 It can be found on Nexus Mods: [High-resolution UI](https://www.nexusmods.com/bloodrayneterminalcut/mods/9)
