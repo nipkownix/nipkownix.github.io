@@ -10,8 +10,6 @@ image:
 tags: [Games]
 ---
 
-## About
-
 A project designed to fix and tweak the "UHD" port of Resident Evil 4 on [Steam](https://store.steampowered.com/app/254700/Resident_Evil_4/).
 
 ## Current features

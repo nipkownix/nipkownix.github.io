@@ -10,8 +10,6 @@ image:
 tags: [Games]
 ---
 
-## About
-
 Chaotic;Head is a Chaos;Head patch created to improve its stability and playability.
 
 Chaos;Head is a visual novel developed by 5pb. and Nitroplus, but unlike its more popular “cousin” Steins;Gate, Chaos;Head was never localized. Fans took it upon themselves to translate the whole game unofficially, but they couldn’t predict just how terrible the game’s engine was. “N2System” as it is called, is both amazing and terrible at the same time. It is capable of performing some very interesting functions, considering it is a somewhat old VN engine. However, despite the efforts of many dedicated people releasing multiple patches over the years, the fan-made localization of Chaos;Head was never really considered “perfect”.

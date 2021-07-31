@@ -10,8 +10,6 @@ image:
 tags: [Games]
 ---
 
-## About
-
 A project designed to fix and tweak BloodRayne: Terminal Cut on [Steam](https://store.steampowered.com/app/1373510/BloodRayne_Terminal_Cut/).
 
 ## Current feature

@@ -9,8 +9,6 @@ image:
 tags: [Games, Video]
 ---
 
-## About
-
 When the Steam version of Steins;Gate was produced, the developers decided to use a very well known and often reliable video codec - Bink.
 
 Bink can be an amazing *compressor*, but whoever is encoding videos has to be very careful, otherwise Bink will destroy the video in order to achieve a small file size.
