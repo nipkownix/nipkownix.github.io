@@ -10,6 +10,8 @@ image:
 tags: [Games]
 ---
 
+## About
+
 Chaotic;Head is a Chaos;Head patch created to improve its stability and playability.
 
 Chaos;Head is a visual novel developed by 5pb. and Nitroplus, but unlike its more popular “cousin” Steins;Gate, Chaos;Head was never localized. Fans took it upon themselves to translate the whole game unofficially, but they couldn’t predict just how terrible the game’s engine was. “N2System” as it is called, is both amazing and terrible at the same time. It is capable of performing some very interesting functions, considering it is a somewhat old VN engine. However, despite the efforts of many dedicated people releasing multiple patches over the years, the fan-made localization of Chaos;Head was never really considered “perfect”.
@@ -32,16 +34,18 @@ __List of Chaotic;Head improvements:__
 - Translation fixes;
 - Runs on Linux (using Wine)
 
-## Chaotic;Head 1.30 download: [here](https://drive.google.com/file/d/1vR5S8uemqiPQdgbi_DrB3-z3EYGWrRdF/view?usp=sharing)
+*****************************
+
+## Download
+
+- [Chaotic_1.30.zip](https://drive.google.com/file/d/1vR5S8uemqiPQdgbi_DrB3-z3EYGWrRdF/view?usp=sharing)
 
 HUGE thanks to the folks who made the awesome Di-Patch,  
 the people at TLWiki and everyone else who contribuited to improve and make Chaos;Head acessible to everyone.
 
-<br>
-
 *****************************
 
-# Linux info
+## Linux info
 
 The game runs out of the box on wine. The only issue is that videos will not play without a workaround.  
 This issue seems to affect all N2System games running on wine, as far as I know. (Tested on wine 6.13)
@@ -51,19 +55,17 @@ Video fix:
 Install LAV Filters - [https://github.com/Nevcairiel/LAVFilters](https://github.com/Nevcairiel/LAVFilters)  
 The installer might complain about something. Just click on ignore and you should be good to go.
 
-<br>
-
 *****************************
 
 
-# Troubleshooting
+## Troubleshooting
 * __*"The game will not open and an error pops up"*__  
-	* The game requires administrator permission to run properly or else in some cases an error will pop up.   
-	If the issue persists, you might be missing DirectX 9.0c which is needed to run the game, you can download that [here](https://www.microsoft.com/en-hk/download/details.aspx?id=8109). 
+	* In some cases, the game might require administrator rights to run properly, or else an error message will pop up.   
+	If the issue persists, you might be missing DirectX 9.0c, which is needed to run the game, you can download that [here](https://www.microsoft.com/en-hk/download/details.aspx?id=8109). 
 	
 <br>
 
-* __*"The game froze during Prologue"*__  
+* __*"The game froze during the Prologue"*__  
 	* If the rain in the prologue is not being animated, close the game.  
 	Install [K-Lite Codec Pack](https://codecguide.com/download_kl.htm).  
 	Try running the game and see if the problem is resolved. 
@@ -84,11 +86,9 @@ The installer might complain about something. Just click on ignore and you shoul
 	* It is a .dll mod I created to both change the game's encryption key and also make it load custom fonts without having to "install" them on the user's computer.  
 	The source code is available [here](https://github.com/nipkownix/ChaoticHead/tree/master/chaotic-head_dll).
 
-<br>
-
 *****************************
 
-# Credits
+## Credits
 
 Chaotic;Head author: nipkow
 
@@ -110,11 +110,9 @@ ghost for RC2 (adds some missing items)
 http://www.tsukuru.info/tlwiki/index.php?title=Chaos;Head  
 DVN for cleaning up what RC1 and RC2 left behind
 
-<br>
-
 *****************************
 
-# Changelog
+## Changelog
 
 1.30:
 

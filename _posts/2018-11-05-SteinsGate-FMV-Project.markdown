@@ -9,6 +9,7 @@ image:
 tags: [Games, Video]
 ---
 
+## About
 
 When the Steam version of Steins;Gate was produced, the developers decided to use a very well known and often reliable video codec - Bink.
 
@@ -31,7 +32,7 @@ Here are some comparisons:
 |--|--|
 | ![Steam](/assets/img/SGHQFMV/comp2_steam.jpg) | ![PS3](/assets/img/SGHQFMV/comp2_ps3.jpg) |
 
-### The problem
+## The problem
 
 Bink. 
   
@@ -41,7 +42,7 @@ As expected, Bink 1 is terrible, outdated and bloated. Bink 2 is the "new" and i
   
 Steins;Gate's videos were encoded using Bink 2, but without proper settings, the results were terrible. The videos look overly compressed and blocky.
 
-### The solution (?)
+## The solution (?)
 
 My project aims to "port" and improve the videos by using VapourSynth as a way to filter them, and Bink 1 as the file format.  
   
@@ -60,19 +61,19 @@ Comparison:
 
 Sound wise, Bink 1 is also pretty terrible. However, there is workaround for that.
 
-### Finally,
+## Finally,
  
 This project was designed to work with [Committee of Zero's improvement patch](https://steamcommunity.com/app/412830/discussions/0/215439774868934160/). I have used its "file redirection" feature to replace the videos.  
   
 Committee of Zero's improvement patch is **required**, not optional. Install it before installing the HQ FMV project.
 
-### Download
+## Download
 
 - [SG-HQ-FMV_2.0.zip](https://drive.google.com/file/d/1BqsgmYVbIcsub6fauPY3zbsZS-qT0TyQ/view?usp=sharing)
 <br>
 
-### Installation
-- Extract the "languagebarrier" folder to `Steam\steamapps\common\STEINS;GATE\`.
+## Installation
+- Extract the "languagebarrier" folder to `Steam\steamapps\common\STEINS;GATE`.
 
   
 **The FMV pack should be installed "on top" of the [improvement patch](https://steamcommunity.com/app/412830/discussions/0/215439774868934160/), replacing existing files.**

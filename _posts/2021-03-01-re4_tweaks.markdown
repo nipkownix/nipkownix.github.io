@@ -10,10 +10,11 @@ image:
 tags: [Games]
 ---
 
+## About
 
 A project designed to fix and tweak the "UHD" port of Resident Evil 4 on [Steam](https://store.steampowered.com/app/254700/Resident_Evil_4/).
 
-### Current features
+## Current features
 
  * **Increase FOV** - Increases the default FOV. Useful to prevent motion sickness in some people.
 
@@ -41,7 +42,7 @@ The anti-aliasing option found in the settings menu is unaffected.
 
  * **Rebind keyboard QTE keys** - The vanilla game doesn't allow the user to change the main QTE keys, being "X" and "C". Changing them via an .ini file is possible, but the on screen prompts don't change to match the new keys, leading to confusion. This mod changes the default QTE keys to be "A" and "D", both customizable and with proper on screen prompt support.
 
-### Installation
+## Installation
 
 Download the lastest release from here: [https://github.com/nipkownix/re4_tweaks/releases](https://github.com/nipkownix/re4_tweaks/releases)
 
