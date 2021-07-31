@@ -40,8 +40,11 @@ __List of Chaotic;Head improvements:__
 
 - [Chaotic_1.30.zip](https://drive.google.com/file/d/1vR5S8uemqiPQdgbi_DrB3-z3EYGWrRdF/view?usp=sharing)
 
-HUGE thanks to the folks who made the awesome Di-Patch,  
-the people at TLWiki and everyone else who contribuited to improve and make Chaos;Head acessible to everyone.
+**If you plan on using LCS (underwear mode)**, you need to have installed the **official LCS patch** before installing the Chaotic patch. For preservation and convenience, I have uploaded the official installer [here](https://drive.google.com/file/d/1GTh1aGCUmT6R-zFDtry1gWBJkRVta29J/view?usp=sharing).
+
+The LCS installer provides the **"ex.npa"** file, which contains all sprites related to LCS. If your copy of the game doesn't contain this file, LCS won't work.
+
+**If you don't plan on using LCS, you can ignore anything related to the "ex.npa" file and the official LCS installer.**
 
 *****************************
 
