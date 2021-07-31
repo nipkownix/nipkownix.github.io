@@ -18,7 +18,7 @@ Chaos;Head is a visual novel developed by 5pb. and Nitroplus, but unlike its mor
 
 I discovered this game after reading Steins;Gate and got hooked immediately. But quite early on I faced issues, ranging from videos not playing to entire characters straight up being invisible. Not to mention it was impossible to play on Linux due to its flawed and old DRM.
 
-While investigating, I found a newer build of that engine, used in another game called “Zanma Taisei Demonbane”. Unlike Chaos;Head, Demonbane was localized and officially released in the US, meaning this build of the engine would run out of the box, without the need to switch your compute to a Japanese locale or use a locale emulator. Luckily, N2System compiles its scripts at runtime, meaning I had everything I needed to port Chaos;Head from its official 2008 Japanese version of the engine, to a 2011 English version build. After many hours of swimming through Japanese code, the result was a much more reliable way to play Chaos;Head in English.
+While investigating, I found a newer build of that engine, used in another game called “Zanma Taisei Demonbane”. Unlike Chaos;Head, Demonbane was localized and officially released in the US, meaning this build of the engine would run out of the box, without the need to switch your computer to a Japanese locale or use a locale emulator. Luckily, N2System compiles its scripts at runtime, meaning I had everything I needed to port Chaos;Head from its official 2008 Japanese version of the engine, to a 2011 English version build. After many hours of swimming through Japanese code, the result was a much more reliable way to play Chaos;Head in English.
 
 Thanks to the help I received from DVN, this project not only included technical fixes, but also grammatical and translation improvements as well.
 
@@ -82,6 +82,11 @@ The installer might complain about something. Just click on ignore and you shoul
 	select "Stretch to fit"  
 	go fullscreen  
 	select "Preserve as is"  
+
+<br>
+
+* __*"Parts of the image are being cut off"*__  
+	* Open Windows' display settings, change scaling to 100% and see if the problem is resolved.
 
 <br>
 
