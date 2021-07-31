@@ -62,37 +62,20 @@ Sound wise, Bink 1 is also pretty terrible. However, there is workaround for tha
 
 ### Finally,
  
-This project was designed to work with [Committee of Zero's improvement patch](https://steamcommunity.com/app/412830/discussions/0/215439774868934160/). Mainly the HQ audio portion. I have [forked its source code](https://github.com/nipkownix/sghd-patch) and used its "file redirection" feature to replace the Bink 1 audio with the ps3 sound files extracted from the same videos I used as a source for this project.  
+This project was designed to work with [Committee of Zero's improvement patch](https://steamcommunity.com/app/412830/discussions/0/215439774868934160/). I have used its "file redirection" feature to replace the videos.  
   
-If you don't use the aforementioned improvement patch, the videos will display no subtitles and you will hear noticeable lossy audio. Do as you please, but I do recommend using the improvement patch.
+Committee of Zero's improvement patch is **required**, not optional. Install it before installing the HQ FMV project.
 
+### Download
 
-### What about the Japanese videos?
+- [SG-HQ-FMV_2.0.zip](https://drive.google.com/file/d/1BqsgmYVbIcsub6fauPY3zbsZS-qT0TyQ/view?usp=sharing)
+<br>
 
-Committee of Zero's improvement patch has optional instructions guiding you to replace the hard-subbed English videos for the Japanese videos. The Japanese videos do look better than the English ones, but they are plagued by the same problems. In fact, the images I used for comparison earlier are from the Japanese videos. Their English counterparts look even worse.  
-  
-You can skip downloading the Japanese videos if you are going to use the ones from this project. Please remember that the videos from this project have no hardsubs and are a mix from both English and Japanese ps3 videos. Subtitles have to be [enabled](/assets/img/SGHQFMV/Subs.png) on the improvement patch.
-
-### Downloads
-
-The downloads are split into three optional parts:  
-  
-
-- [1080p videos](https://drive.google.com/file/d/1x5May_-WCfM7w0eV_7jmTcV8YrEDaiR_/view?usp=sharing) (2.9G)
-
-- [720p videos](https://drive.google.com/file/d/1JkXdc6YArIXLNEVjfPmwT2Hh5FAYBVPF/view?usp=sharing) (1.5G)
-    
-- [HQ Audio](https://drive.google.com/file/d/1hwF2bfh9_c5qwWa0YHvZsP02iX0HQTVr/view?usp=sharing)
- 
-You probably won't need both video packs. 
-1080p videos are used when the [movie quality is set to high](/assets/img/SGHQFMV/Launcher.png), and 720p videos are used when the quality is set to low.  
-  
-Copy the new files to:
-
-> Steam\steamapps\common\STEINS;GATE\USRDIR\movie\
+### Installation
+- Extract the "languagebarrier" folder to `Steam\steamapps\common\STEINS;GATE\`.
 
   
-The HQ Audio pack should be installed "on top" of the [improvement patch](https://steamcommunity.com/app/412830/discussions/0/215439774868934160/), replacing existing files.
+**The FMV pack should be installed "on top" of the [improvement patch](https://steamcommunity.com/app/412830/discussions/0/215439774868934160/), replacing existing files.**
 
 
 I have a Steam thread regarding the HQ FMV project [here](https://steamcommunity.com/app/412830/discussions/0/2798319091587347187/) if any assistance is needed.
