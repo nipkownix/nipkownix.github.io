@@ -3,7 +3,10 @@ layout: post
 title: re4_tweaks - Fixes and tweaks for the Steam version of Resident Evil 4
 date: 2021-03-01 04:20:00 +0300
 description: Fixing issues and adding features to Resident Evil 4 on Steam
-img: RE4T/BIO4cover.png
+image:
+  src: /assets/img/RE4T/BIO4cover.png
+  width: 1280
+  height: 720
 tags: [Games]
 ---
 

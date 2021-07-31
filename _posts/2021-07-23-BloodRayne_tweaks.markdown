@@ -3,7 +3,10 @@ layout: post
 title: BloodRayne_tweaks - Fixes and tweaks for BloodRayne Terminal Cut
 date: 2021-07-23 04:20:00 +0300
 description: Fixing issues and adding features to BloodRayne Terminal Cut
-img: BRT/BRcover.png
+image:
+  src: /assets/img/BRT/BRcover.png
+  width: 3560
+  height: 1448
 tags: [Games]
 ---
 

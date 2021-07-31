@@ -1,9 +1,11 @@
 ---
-layout: post
 title: Steins;Gate Steam - HQ FMV Project
 date: 2018-11-05 04:20:00 +0300
 description: Replacing low quality videos with higher quality ones.
-img: SGHQFMV/SGcover.png
+image:
+  src: /assets/img/SGHQFMV/SGcover.png
+  width: 1280
+  height: 720
 tags: [Games, Video]
 ---
 

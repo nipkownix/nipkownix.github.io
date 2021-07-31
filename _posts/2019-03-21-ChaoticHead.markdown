@@ -3,7 +3,10 @@ layout: post
 title: Chaotic;Head - Fixing Chaos;Head
 date: 2019-03-21 04:20:00 +0300
 description: Fixing the unofficial translation of Chaos;Head
-img: CHAOTIC/CHcover.png
+image:
+  src: /assets/img/CHAOTIC/CHcover.png
+  width: 1024
+  height: 768
 tags: [Games]
 ---
 
@@ -29,16 +32,29 @@ __List of Chaotic;Head improvements:__
 - Translation fixes;
 - Runs on Linux (using Wine)
 
-The game runs out of the box on Linux using Wine. The only issue is that videos will not play without installing [LAV Filters](https://github.com/Nevcairiel/LAVFilters).
+## Chaotic;Head 1.30 download: [here](https://drive.google.com/file/d/1vR5S8uemqiPQdgbi_DrB3-z3EYGWrRdF/view?usp=sharing)
 
-## Chaotic;Head download: [here](https://drive.google.com/u/0/uc?id=1839mdJjv17YYc2-k8Pp2jfBmj5tQyL9b&export=download)
-
-The installer works with both original Japanese versions: "Retail with LCS installed" or "DMM The Best"
-
-HUGE thanks to the folks who made the awesome Di-Patch,
+HUGE thanks to the folks who made the awesome Di-Patch,  
 the people at TLWiki and everyone else who contribuited to improve and make Chaos;Head acessible to everyone.
 
+<br>
+
 *****************************
+
+# Linux info
+
+The game runs out of the box on wine. The only issue is that videos will not play without a workaround.  
+This issue seems to affect all N2System games running on wine, as far as I know. (Tested on wine 6.13)
+
+Video fix:
+
+Install LAV Filters - [https://github.com/Nevcairiel/LAVFilters](https://github.com/Nevcairiel/LAVFilters)  
+The installer might complain about something. Just click on ignore and you should be good to go.
+
+<br>
+
+*****************************
+
 
 # Troubleshooting
 * __*"The game will not open and an error pops up"*__  
@@ -53,7 +69,6 @@ the people at TLWiki and everyone else who contribuited to improve and make Chao
 	Try running the game and see if the problem is resolved. 
 
 <br>
-
 	
 * __*"Full Screen is broken"*__  
 	* Press F to exit full screen  
@@ -62,6 +77,12 @@ the people at TLWiki and everyone else who contribuited to improve and make Chao
 	select "Stretch to fit"  
 	go fullscreen  
 	select "Preserve as is"  
+
+<br>
+
+* __*"What is "chaotic.dll"? seems kinda shady"*__  
+	* It is a .dll mod I created to both change the game's encryption key and also make it load custom fonts without having to "install" them on the user's computer.  
+	The source code is available [here](https://github.com/nipkownix/ChaoticHead/tree/master/chaotic-head_dll).
 
 <br>
 
@@ -83,10 +104,10 @@ Di-Patch: Akias, Croowe, MrMonday
 
 ====
 
-Chaos;Head Translation - /jp/ ShitCG Release Candidate 1
-TLWiki Translation Project - al|alone 2009
-ghost for RC2 (adds some missing items)
-http://www.tsukuru.info/tlwiki/index.php?title=Chaos;Head
+Chaos;Head Translation - /jp/ ShitCG Release Candidate 1  
+TLWiki Translation Project - al|alone 2009  
+ghost for RC2 (adds some missing items)  
+http://www.tsukuru.info/tlwiki/index.php?title=Chaos;Head  
 DVN for cleaning up what RC1 and RC2 left behind
 
 <br>
@@ -94,6 +115,17 @@ DVN for cleaning up what RC1 and RC2 left behind
 *****************************
 
 # Changelog
+
+1.30:
+
+- Changed the game's encryption key from Demonbane's to Chaos;Head's, making the engine capable of loading original .npa archives from Chaos;Head. This allows us to avoid having to repack every single .npa for redistribution, and also allows us to not have to rely on specific game versions for diff patching. The result is the creation of a new installer that should work with any version of the game.
+- Translation/script fixes:
+- Changed "seams" to "camel toe" in 01_003.
+- Fixed the day of the week in 08_160.
+- Changed "hereditary" to "inborn" in 10_200.
+- Fixed a few typos and grammar mistakes.
+
+====
 
 1.23:
 
