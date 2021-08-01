@@ -36,7 +36,7 @@ __List of Chaotic;Head improvements:__
 
 ## Download
 
-- [Chaotic_1.30.zip](https://drive.google.com/file/d/1vR5S8uemqiPQdgbi_DrB3-z3EYGWrRdF/view?usp=sharing)
+- [Chaotic_1.30.zip](https://drive.google.com/file/d/1Xk0OF9efGgivo4YSXR5WOICSMp8kmJeo/view?usp=sharing)
 
 **If you plan on using LCS (underwear mode)**, you need to have installed the **official LCS patch** before installing the Chaotic patch. For preservation and convenience, I have uploaded the official installer [here](https://drive.google.com/file/d/1GTh1aGCUmT6R-zFDtry1gWBJkRVta29J/view?usp=sharing).
 
