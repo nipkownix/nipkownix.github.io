@@ -18,9 +18,9 @@ A project designed to fix and tweak BloodRayne: Terminal Cut on [Steam](https://
 
 Comparison: 
 
-| Before | After |
-|--|--|
-| ![Before](/assets/img/BRT/comp1_old.jpg) | ![After](/assets/img/BRT/comp1_new.jpg) |
+| Before | After | Ultrawide |
+|--|--|--|
+| ![Before](/assets/img/BRT/comp1_old.jpg) | ![After](/assets/img/BRT/comp1_new.jpg) | ![Ultrawide](/assets/img/BRT/comp1_new_ultrawide.jpg) |
 
 ## Installation
 
