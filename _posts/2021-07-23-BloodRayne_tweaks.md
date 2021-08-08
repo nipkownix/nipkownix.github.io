@@ -12,7 +12,7 @@ tags: [Games]
 
 A project designed to fix and tweak BloodRayne: Terminal Cut on [Steam](https://store.steampowered.com/app/1373510/BloodRayne_Terminal_Cut/).
 
-## Current feature
+## Current features
 
  * **Fix HUD** - Fix the HUD, moving it further away from the center of the screen.
 
