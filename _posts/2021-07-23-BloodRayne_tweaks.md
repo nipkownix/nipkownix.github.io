@@ -22,6 +22,8 @@ Comparison:
 |--|--|--|
 | ![Before](/assets/img/BRT/comp1_old.jpg) | ![After](/assets/img/BRT/comp1_new.jpg) | ![Ultrawide](/assets/img/BRT/comp1_new_ultrawide.jpg) |
 
+ * **Lock cursor to game window** - Both the original version and the "Terminal Cut" have problems with multi-monitor systems. The game doesn't lock the cursor, causing it to be minimized seemingly at random when you try to attack or shoot using the mouse buttons. This happens because you're clicking outside the game's window, somewhere on your other monitor. This fix tries to properly resolve this issue by locking the cursor into the game's window.
+ 
 ## Installation
 
 Download the lastest release from here: [https://github.com/nipkownix/BloodRayne_tweaks/releases](https://github.com/nipkownix/BloodRayne_tweaks/releases)
