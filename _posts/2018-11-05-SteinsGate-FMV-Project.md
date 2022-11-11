@@ -67,7 +67,7 @@ Committee of Zero's improvement patch is **required**, not optional. Install it 
 
 ## Download
 
-- [SG-HQ-FMV_2.0.zip](https://drive.google.com/file/d/1BqsgmYVbIcsub6fauPY3zbsZS-qT0TyQ/view?usp=sharing)
+- [SG-HQ-FMV_2.1.zip](https://drive.google.com/file/d/1-iTgzpjWBqTQfC4SE43S9wYIheef3k1Q/view)
 <br>
 
 ## Installation
